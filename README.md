@@ -16,21 +16,14 @@ The project is built on [lmfit](https://lmfit.github.io/lmfit-py/index.html) pac
 
 # 3. Installation
 
-The current instruction is for Windows users. I assume the Python is already installed. 
+1. Install [Anaconda](https://www.anaconda.com/download) or [Miniconda](https://docs.anaconda.com/free/miniconda/) distribution.
+2. Run Anaconda Prompt.
+3. Move to the project folder with ``` cd path-to-the-project-folder ```
+4. Create a virtual environment using the command ``` conda env create -f environment.yml ```
+5. Activate the environment with the command shown in the terminal.
+6. Type ```jupyter notebook``` to run the Jupyter Notebook.
 
-It is recommended to create a virtual environment:
-
-```python -m venv <environment_name>```
-
-Then activate the environment:
-
-```<environment_name>\Scripts\activate.bat```
-
-And finally, install the required packages from **requirements.txt**:
-
-```pip install -r requirements.txt```
-
-After everything is installed, with the activated virtual environment type ```jupyter notebook``` to run the Jupyter.
+To start working on the project next time you only need to follow steps 2, 5, 6.
 
 # 4. Tutorials
 
